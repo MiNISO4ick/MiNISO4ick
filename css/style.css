@@ -399,6 +399,11 @@ header .title a:before{
 	justify-content: center;
 }
 
+.fa-arrow-up{
+	font-size: 17px !important;
+	text-shadow: 0 0 17px gold !important;
+}
+
 /*========================================================*/
 /*                      Works                      */
 .works{
@@ -611,11 +616,11 @@ form{
 
 .form__label{
 	display: block;
-	color: #FF6464;
+	color: gold;
 	font-size: 28px;
 	margin: 0px 0px 3px 0px;
 	letter-spacing: 3px;
-	text-shadow: 0 0 3px #FF6464;
+	text-shadow: 0 0 3px gold;
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
@@ -766,10 +771,17 @@ button:focus,input:focus, a:focus{
 	padding-right: 18px;
 }
 
+.fa{
+	font-size: 37px;
+	color: rgba(255, 217, 0, 0.603);
+	text-shadow: 0 0 17px rgba(255, 217, 0, 0.534);
+}
+
 .footer__text{
 	display: block;
 	position: absolute;
 	bottom: 15px;
+	color: rgba(255, 217, 0, 0.534);
 }
 
 .show{
